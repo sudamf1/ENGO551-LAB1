@@ -1,0 +1,76 @@
+body {
+  background-color: Beige;
+}
+
+table,th,td {
+  table-layout: fixed;
+  border : 2px solid black;
+  border-collapse:collapse;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right : auto;
+}
+
+
+a:hover {
+  color : blue;
+  text-decoration: underline;
+}
+
+h1 {
+  text-align : center;
+  color: GhostWhite;
+}
+
+
+#haiku {
+text-align: center;
+color : DarkSeaGreen;
+}
+
+#header {
+
+  color : FloralWhite bold;
+  padding : 20px;
+  text-align : center;
+}
+
+#introduction {
+  text-align : center;
+  color : FloralWhite bold;
+  padding : 10px;
+}
+
+.jumbotron {
+  background-color: DimGray;
+  color : FloralWhite;
+}
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+
+.row > div {
+  border : 2px solid black;
+  padding :20px;
+}
+.container {
+  display: flex;
+  flex-wrap : wrap;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
